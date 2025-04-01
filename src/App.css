@@ -1,0 +1,36 @@
+/* App.css */
+:root {
+    --primary-color: #4a6bff;
+    --secondary-color: #f5f7fa;
+    --text-color: #333;
+    --border-color: #e1e5eb;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: #f9fafb;
+  }
+  
+  .app {
+    min-height: 100vh;
+  }
+  
+  .loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem;
+  }
+  
+  /* Styles pour Font Awesome (si vous l'utilisez) */
+  .fas {
+    font-size: 0.9rem;
+  }
