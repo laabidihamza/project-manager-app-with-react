@@ -17,6 +17,7 @@ const ProjectItem = ({ project, isSelected, onSelect, onDelete }) => {
       >
         <i className="fas fa-trash"></i>
       </button>
+      {console.log(isSelected)}
     </li>
   );
 };
